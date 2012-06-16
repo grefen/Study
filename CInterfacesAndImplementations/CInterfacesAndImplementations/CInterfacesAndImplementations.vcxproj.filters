@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="except">
+      <UniqueIdentifier>{b3429f6d-e4af-48e6-9c35-dcb6ac070461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assert">
+      <UniqueIdentifier>{7ffd53b2-2788-4bbd-a4d4-544028e8818f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{6b30430d-cbf1-42bf-ad66-04493ee4f066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="list">
+      <UniqueIdentifier>{3987aca2-b8ce-47ec-a358-d3526c1b34ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="atom">
+      <UniqueIdentifier>{f5526dfc-f3ba-4bd0-9eba-222f5141d4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="table">
+      <UniqueIdentifier>{0fd6c163-ac5d-485d-845e-959655266eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="set">
+      <UniqueIdentifier>{a318083c-89b9-4c86-8484-a04d5e545e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arith">
+      <UniqueIdentifier>{66b6ee01-3a53-4a53-b76a-b1cf5888d3cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="array">
+      <UniqueIdentifier>{e0cb16f3-f0a4-47ca-8eae-a66e198fabfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="seq">
+      <UniqueIdentifier>{f7592300-5358-4d8b-a723-33bb239817f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ring">
+      <UniqueIdentifier>{9d9c1519-dded-41c1-b496-854e5987bdaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bit">
+      <UniqueIdentifier>{fde33048-b468-4e37-8b67-9b7855ad3cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmt">
+      <UniqueIdentifier>{3b9fabe6-04e0-4797-9805-5c118c01b3fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="str">
+      <UniqueIdentifier>{126b53e3-8265-41c7-ba0d-6f03b2f5b685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{f8ee1424-2a8d-4db1-b3db-8abfd1802299}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="except.cpp">
+      <Filter>except</Filter>
+    </ClCompile>
+    <ClCompile Include="assert.cpp">
+      <Filter>assert</Filter>
+    </ClCompile>
+    <ClCompile Include="arena.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="list.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="atom.cpp">
+      <Filter>atom</Filter>
+    </ClCompile>
+    <ClCompile Include="table.cpp">
+      <Filter>table</Filter>
+    </ClCompile>
+    <ClCompile Include="wf.cpp">
+      <Filter>table</Filter>
+    </ClCompile>
+    <ClCompile Include="set.cpp">
+      <Filter>set</Filter>
+    </ClCompile>
+    <ClCompile Include="arith.cpp">
+      <Filter>arith</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>array</Filter>
+    </ClCompile>
+    <ClCompile Include="seq.cpp">
+      <Filter>seq</Filter>
+    </ClCompile>
+    <ClCompile Include="ring.cpp">
+      <Filter>ring</Filter>
+    </ClCompile>
+    <ClCompile Include="bit.cpp">
+      <Filter>bit</Filter>
+    </ClCompile>
+    <ClCompile Include="fmt.cpp">
+      <Filter>fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="str.cpp">
+      <Filter>str</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="except.h">
+      <Filter>except</Filter>
+    </ClInclude>
+    <ClInclude Include="assert.h">
+      <Filter>assert</Filter>
+    </ClInclude>
+    <ClInclude Include="arena.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="atom.h">
+      <Filter>atom</Filter>
+    </ClInclude>
+    <ClInclude Include="table.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="set.h">
+      <Filter>set</Filter>
+    </ClInclude>
+    <ClInclude Include="arith.h">
+      <Filter>arith</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>array</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayrep.h">
+      <Filter>array</Filter>
+    </ClInclude>
+    <ClInclude Include="seq.h">
+      <Filter>seq</Filter>
+    </ClInclude>
+    <ClInclude Include="ring.h">
+      <Filter>ring</Filter>
+    </ClInclude>
+    <ClInclude Include="bit.h">
+      <Filter>bit</Filter>
+    </ClInclude>
+    <ClInclude Include="fmt.h">
+      <Filter>fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="str.h">
+      <Filter>str</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
