@@ -58,6 +58,9 @@
     <Filter Include="Text">
       <UniqueIdentifier>{f8ee1424-2a8d-4db1-b3db-8abfd1802299}</UniqueIdentifier>
     </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{9ca4d9e2-6ee6-4d7c-b7dd-4cb9941c48e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
