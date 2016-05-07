@@ -1,0 +1,11 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+PROJECT(strandtimer)
+
+AUX_SOURCE_DIRECTORY(. DIR_SRC)
+
+ADD_EXECUTABLE(strandtimer ${DIR_SRC})
+
+TARGET_LINK_LIBRARIES(strandtimer boost_thread boost_system)
+
+
