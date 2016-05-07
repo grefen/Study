@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/synctimer.dir/synctimer.cpp.o  -o synctimer -rdynamic -lboost_system 
